@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+float a;
+float b;
+char ch;
+scanf("%f %c %f",&a,&ch,&b);
+switch(ch)
+{
+case'+':
+{
+printf("ADDITION=%f\n",a+b);
+break;
+}
+case'-':
+{
+printf("SUBTRACTION=%f\n",a-b);
+break;
+}
+case'*':
+{
+printf("MULTIPICATION=%f\n",a*b);
+break;
+}
+case'/':
+{
+printf("DIVIVDE=%f\n",a/b);
+break;
+}
+default:
+{
+printf("INVALID VALUE");
+}
+}
+return 0;
+}
